@@ -1,0 +1,144 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--preto);
+    font-family:'Times New Roman', Times, serif;
+    color: #AAA;
+}
+
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin-left: 30px;
+}
+header .menu a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header .menu a:hover{
+    color: #FFF;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+/* Elementos filme principal */
+
+.filme-principal{
+    font-size: 16px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.full-screen{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.full-screen video{
+    justify-content: center;
+    width: 100%;
+}
+
+.filme-principal .container{
+
+    margin-left: 30px;
+}
+
+
+.filme-principal .titulo{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.filme-principal .descricao{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    text-shadow: 3px 3px 3px  #141414;
+}
+
+.botoes .botao{
+    background-color: rgba(194, 188, 188, 0.3);
+    box-shadow: 10%;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    width: 200px;
+    color:aliceblue;
+    margin-right: 12px;
+    cursor:pointer;
+    transition: 1.2s ease all;
+}
+
+.botoes .assistir{
+    background-color: #ffffff;
+    color: #141414;
+    transition: 1.2s ease all;
+}
+.botoes .botao:hover{
+    background-color: rgba(179, 178, 178, 0.5);
+}
+
+.botoes .fa-play{
+    margin-right: 10px;
+}
+.botoes .fa-circle-info{
+    margin-right: 10px;
+    padding: 10px;
+}
+.fa-bell{
+    margin-right: 80px;
+    padding: 10px;
+}
+
+.titulo-filmes h1{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.box-filmes{
+
+    display: block;
+}
+
+.owl-theme{
+    background-color: #141414;
+
+}
+
+footer .container{
+    height: 80px;
+    
+}
+footer .container p{
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: center;   
+
+}
