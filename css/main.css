@@ -51,14 +51,14 @@ header .container{
     margin-bottom: 5px;
 }
 
-.full-screen{
+.bg-video{
     top: 0;
     left: 0;
     width: 100%;
     position: absolute;
     z-index: -1;
 }
-.full-screen video{
+.bg-video video{
     justify-content: center;
     width: 100%;
 }
